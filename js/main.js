@@ -51,8 +51,12 @@ function borrar(display){
     display.innerHTML = 0;
 }
 
-let funciona = prompt( " Funciona la calculadora?")
-alert( "genial" + funciona)
+
+
+let nombre = prompt( " Me podrías dar tu nombre? ");
+alert("Hola " + nombre + " espero te sea de utilidad la calculadora. Saludos!!");
+
+
 
 
 
